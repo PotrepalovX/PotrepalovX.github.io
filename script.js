@@ -2,7 +2,7 @@ document.getElementById('playButton').addEventListener('click', function () {
     const audio = document.getElementById('song');
     audio.play(); // Воспроизвести песню
 
-    // Скрыть кнопку после нажатия
+    // Плавное исчезновение кнопки
     this.style.opacity = '0';
     setTimeout(() => {
         this.style.display = 'none';
